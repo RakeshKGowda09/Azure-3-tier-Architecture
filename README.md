@@ -15,9 +15,9 @@ The architecture depicted in the image is a comprehensive setup involving multip
 7)	Click "Review + Create" and then "Create".
 8)	Repeat to create "ProductionResourceGroup" and "DevelopmentResourceGroup".
 
-<img width="957" alt="image" src="https://github.com/user-attachments/assets/2ca5f843-91f7-418a-80ae-cbaa0bf4721d">
--------------------------------------------------------------------------------------------------------------------
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/b943adcb-942e-446d-a9a0-8fe626fcd419">
+[<img width="957" alt="image" src="https://github.com/user-attachments/assets/2ca5f843-91f7-418a-80ae-cbaa0bf4721d">]
+
+[<img width="950" alt="image" src="https://github.com/user-attachments/assets/b943adcb-942e-446d-a9a0-8fe626fcd419">]
 
 **Step 2: Set Up the Virtual Networks**
 1)	Create Virtual Network for Management Environment:
