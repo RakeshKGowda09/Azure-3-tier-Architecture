@@ -37,7 +37,7 @@ The architecture depicted in the image is a comprehensive setup involving multip
 
 **Create Virtual Network for Production Environment:**
 
-**Repeat the steps for creating ProductionVNet:**
+****Repeat the steps for creating ProductionVNet:**
 1.	Name: ProductionVNet
 2.	Address space: 10.1.0.0/16
 3.	Subnets:
@@ -48,7 +48,26 @@ iii.	DBSubnet: 10.1.3.0/24
 
 <img width="835" alt="image" src="https://github.com/user-attachments/assets/afd581a5-fd87-40d7-bd7f-9e8b5cb6718c">
 
+
 <img width="922" alt="image" src="https://github.com/user-attachments/assets/55566258-5b49-48ce-9915-765b62266da7">
+
+**Create Virtual Network for Development Environment:**
+
+****Repeat the steps for creating DevelopmentVNet:**
+1)	Name: DevelopmentVNet
+2)	Address space: 10.2.0.0/16
+3)	Subnets:
+I.	WebSubnet: 10.2.1.0/24
+II.	AppSubnet: 10.2.2.0/24
+III.	DBSubnet: 10.2.3.0/24
+4)	Resource group: DevelopmentResourceGroup
+
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/34ea3692-2b3f-43df-85a4-110e31964d3e">
+
+<img width="724" alt="image" src="https://github.com/user-attachments/assets/0fe40d9d-7b3e-4b9a-9a2e-3d7c81273149">
+
+
+
 
 
 
