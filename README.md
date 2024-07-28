@@ -36,13 +36,14 @@ Create Virtual Network for Management Environment:**
 
 **Create Virtual Network for Production Environment:
 Repeat the steps for creating ProductionVNet:**
-a.	Name: ProductionVNet
-b.	Address space: 10.1.0.0/16
-c.	Subnets:
+1.	Name: ProductionVNet
+2.	Address space: 10.1.0.0/16
+3.	Subnets:
 i.	WebSubnet: 10.1.1.0/24
 ii.	AppSubnet: 10.1.2.0/24
 iii.	DBSubnet: 10.1.3.0/24
-d.	Resource group: ProductionResourceGroup
+4.	Resource group: ProductionResourceGroup
+
 
 
 
