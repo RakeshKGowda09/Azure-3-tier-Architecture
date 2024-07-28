@@ -15,22 +15,36 @@ The architecture depicted in the image is a comprehensive setup involving multip
 7)	Click "Review + Create" and then "Create".
 8)	Repeat to create "ProductionResourceGroup" and "DevelopmentResourceGroup".
 
-[<img width="957" alt="image" src="https://github.com/user-attachments/assets/2ca5f843-91f7-418a-80ae-cbaa0bf4721d">]
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/2ca5f843-91f7-418a-80ae-cbaa0bf4721d">
 
-[<img width="950" alt="image" src="https://github.com/user-attachments/assets/b943adcb-942e-446d-a9a0-8fe626fcd419">]
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/b943adcb-942e-446d-a9a0-8fe626fcd419">
 
-**Step 2: Set Up the Virtual Networks**
-1)	Create Virtual Network for Management Environment:
-2)	Go to "Virtual networks".
-3)	Click "Add".
-4)	Enter the following details:
-5)	Name: ManagementVNet
-6)	Address space: 10.0.0.0/16
-7)	Subnet name: ManagementSubnet
-8)	Subnet address range: 10.0.0.0/24
-9)	Resource group: ManagementResourceGroup
-10)	Location: (e.g., East US)
-11)	Click "Review + Create" and then "Create".
+**Step 2: Set Up the Virtual Networks
+Create Virtual Network for Management Environment:**
+1)	Go to "Virtual networks".
+2)	Click "Add".
+3)	Enter the following details:
+4)	Name: ManagementVNet
+5)	Address space: 10.0.0.0/16
+6)	Subnet name: ManagementSubnet
+7)	Subnet address range: 10.0.0.0/24
+8)	Resource group: ManagementResourceGroup
+9)	Location: (e.g., East US)
+10)	Click "Review + Create" and then "Create".
+
+<img width="841" alt="image" src="https://github.com/user-attachments/assets/8daafeba-30a3-432e-a3f9-1c3731a0c31b">
+
+**Create Virtual Network for Production Environment:**
+**Repeat the steps for creating ProductionVNet:**
+a.	Name: ProductionVNet
+b.	Address space: 10.1.0.0/16
+c.	Subnets:
+i.	WebSubnet: 10.1.1.0/24
+ii.	AppSubnet: 10.1.2.0/24
+iii.	DBSubnet: 10.1.3.0/24
+d.	Resource group: ProductionResourceGroup
+
+
 
 
 
