@@ -20,7 +20,7 @@ The architecture depicted in the image is a comprehensive setup involving multip
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/b943adcb-942e-446d-a9a0-8fe626fcd419">
 
 **Step 2: Set Up the Virtual Networks**
-**Create Virtual Network for Management Environment:**
+**Create Virtual Network for Management Environment:
 1)	Go to "Virtual networks".
 2)	Click "Add".
 3)	Enter the following details:
@@ -35,7 +35,7 @@ The architecture depicted in the image is a comprehensive setup involving multip
 <img width="841" alt="image" src="https://github.com/user-attachments/assets/8daafeba-30a3-432e-a3f9-1c3731a0c31b">
 
 **Create Virtual Network for Production Environment:**
-**Repeat the steps for creating ProductionVNet:**
+**Repeat the steps for creating ProductionVNet:
 1.	Name: ProductionVNet
 2.	Address space: 10.1.0.0/16
 3.	Subnets:
