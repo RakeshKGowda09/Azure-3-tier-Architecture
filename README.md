@@ -46,6 +46,14 @@ ii.	AppSubnet: 10.1.2.0/24
 iii.	DBSubnet: 10.1.3.0/24
 4.	Resource group: ProductionResourceGroup
 
+<img width="835" alt="image" src="https://github.com/user-attachments/assets/afd581a5-fd87-40d7-bd7f-9e8b5cb6718c">
+
+<img width="922" alt="image" src="https://github.com/user-attachments/assets/55566258-5b49-48ce-9915-765b62266da7">
+
+
+
+
+
 
 
 
